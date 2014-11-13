@@ -52,7 +52,7 @@ all: TempSensor_v0.4.elf secondary-outputs
 TempSensor_v0.4.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/ezequ_000/Documents/ARM/Temp_Sensor/TempSensor_v0.4/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/ezequ_000/Documents/ARM/Temp_Sensor/TempSensor_v0.4/Project_Settings/Linker_Files" -Wl,-Map,"TempSensor_v0.4.map" -nanolibc -o "TempSensor_v0.4.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/UABC/workspace.kds/Temp_Sensor/TempSensor_v0.4/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/UABC/workspace.kds/Temp_Sensor/TempSensor_v0.4/Project_Settings/Linker_Files" -Wl,-Map,"TempSensor_v0.4.map" -nanolibc -o "TempSensor_v0.4.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
