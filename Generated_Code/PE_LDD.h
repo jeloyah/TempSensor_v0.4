@@ -5,7 +5,7 @@
 **     Processor   : MKL26Z128VLH4
 **     Version     : Component 01.006, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-09-21, 18:12, # CodeGen: 8
+**     Date/Time   : 2014-11-13, 13:40, # CodeGen: 29
 **     Abstract    :
 **
 **     Settings    :
@@ -64,7 +64,6 @@
 #include "AdcLdd1.h"
 #include "AS1.h"
 #include "ASerialLdd1.h"
-#include "WAIT1.h"
 #include "Bit1.h"
 #include "BitIoLdd1.h"
 #include "Bit2.h"

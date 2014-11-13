@@ -34,7 +34,6 @@
 #include "AdcLdd1.h"
 #include "AS1.h"
 #include "ASerialLdd1.h"
-#include "WAIT1.h"
 #include "Bit1.h"
 #include "BitIoLdd1.h"
 #include "Bit2.h"
@@ -120,7 +119,7 @@ int main(void)
 			  AS1_SendBlock(&Data,17, &Sent);	//Envia un bloque e datos a traves del UART0
 			  err = AS1_RecvChar(&UART_Rx);
 			  if(UART_Rx == 0x02){break;}
-			  WAIT1_Waitms(2500);									//Pausa en la ejecucion (el tiempo no es muy preciso)
+			  WAIT1_Waitms(2000);									//Pausa en la ejecucion (el tiempo no es muy preciso)
 
 		  }
 		  break;

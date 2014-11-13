@@ -42,16 +42,6 @@ Module "AS1"       (component AsynchroSerial)
    - AS1_GetCharsInTxBuf -Returns the number of characters in the output buffer. This method is available only if the 
                 transmitter property is enabled.
 
-Module "WAIT1"     (component Wait)
-   - WAIT1_Wait10Cycles -Wait for approximately 10 CPU cycles.
-   - WAIT1_Wait100Cycles -Wait for 100 CPU cycles.
-   - WAIT1_WaitCycles -Wait for 100 CPU cycles.
-   - WAIT1_Waitms -Wait for a specified time in milliseconds.
-   - WAIT1_Waitus -Wait for a specified time in microseconds.
-   - WAIT1_Waitns -Wait for a specified time in nano seconds.
-   - WAIT1_WaitOSms -If an RTOS is enabled, this routine will use a non-blocking wait method. Otherwise it will do a 
-                busy/blocking wait.
-
 Module "Bit1"      (component BitIO)
    - Bit1_GetVal -Returns the input/output value. If the direction is [input] then the input value of the pin is read and 
                 returned. If the direction is [output] then the last written value is returned (see <Safe mode> property for 

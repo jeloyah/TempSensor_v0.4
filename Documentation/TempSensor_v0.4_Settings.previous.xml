@@ -381,7 +381,7 @@ PE_DEBUGHALT();
             <group name="Channel 0">
               <enumgroup name="Channel mode" v="Single Ended">
                 <group name="Input">
-                  <A_D_channel__pin_ v="TempSensor" />
+                  <A_D_channel__pin_ v="ADC0_SE8/TSI0_CH0/PTB0/LLWU_P5/I2C0_SCL/TPM1_CH0" />
                 </group>
               </enumgroup>
             </group>
@@ -473,7 +473,7 @@ Autoselect
       <boolgroup name="Interrupt service/event" v="Disabled" />
       <list name="A/D channels" v="1">
         <group name="Channel0">
-          <A_D_channel__pin_ v="TempSensor" />
+          <A_D_channel__pin_ v="ADC0_SE8/TSI0_CH0/PTB0/LLWU_P5/I2C0_SCL/TPM1_CH0" />
           <boolgroup name="Mode select" v="Single Ended" />
         </group>
       </list>

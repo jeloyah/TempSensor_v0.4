@@ -42,7 +42,6 @@
 #include "BitIoLdd1.h"
 #include "Bit2.h"
 #include "BitIoLdd2.h"
-#include "WAIT1.h"
 
 #ifdef __cplusplus
 extern "C" {
