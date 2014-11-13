@@ -14,8 +14,7 @@ C_SRCS += \
 ../Generated_Code/BitIoLdd2.c \
 ../Generated_Code/Cpu.c \
 ../Generated_Code/PE_LDD.c \
-../Generated_Code/Vectors.c \
-../Generated_Code/WAIT1.c 
+../Generated_Code/Vectors.c 
 
 OBJS += \
 ./Generated_Code/AD1.o \
@@ -28,8 +27,7 @@ OBJS += \
 ./Generated_Code/BitIoLdd2.o \
 ./Generated_Code/Cpu.o \
 ./Generated_Code/PE_LDD.o \
-./Generated_Code/Vectors.o \
-./Generated_Code/WAIT1.o 
+./Generated_Code/Vectors.o 
 
 C_DEPS += \
 ./Generated_Code/AD1.d \
@@ -42,8 +40,7 @@ C_DEPS += \
 ./Generated_Code/BitIoLdd2.d \
 ./Generated_Code/Cpu.d \
 ./Generated_Code/PE_LDD.d \
-./Generated_Code/Vectors.d \
-./Generated_Code/WAIT1.d 
+./Generated_Code/Vectors.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
